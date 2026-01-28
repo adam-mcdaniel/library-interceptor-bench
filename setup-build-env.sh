@@ -6,12 +6,17 @@ export ROCM_PATH=/opt/rocm-$ROCM_VERSION
 
 module load \
     PrgEnv-cray \
-    cray-hdf5 \
+    amd/6.4.1 \
+    rocm/6.4.1 \
     craype-accel-amd-gfx90a \
+    cray-hdf5 \
     cray-mpich \
     openblas \
     cray-fftw \
     PrgEnv-amd/8.6.0
+
+export CC=hipcc
+export CXX=hipcc
 
 export MPICH_GPU_SUPPORT_ENABLED=1
 export CRAY_MPICH_PREFIX=$(dirname $(dirname $(which mpicc)))
