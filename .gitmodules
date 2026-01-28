@@ -1,0 +1,12 @@
+[submodule "li-hpg-mxp"]
+	path = li-hpg-mxp
+	url = https://github.com/adam-mcdaniel/li-hpg-mxp
+[submodule "li-rochpl"]
+	path = li-rochpl
+	url = https://github.com/adam-mcdaniel/li-rochpl
+[submodule "li-qmcpack"]
+	path = li-qmcpack
+	url = https://github.com/adam-mcdaniel/li-qmcpack
+[submodule "li-lsms"]
+	path = li-lsms
+	url = https://github.com/adam-mcdaniel/li-lsms
