@@ -19,7 +19,7 @@ for dir in */; do
     cd $ROOT
 done
 
-cd library-interceptors/perf-libs-tools && ./install.sh --prefix . --rocm-version 6.4.1
+cd library-interceptors/perf-libs-tools && ./install.sh --prefix . --rocm-version 6.2.4
 cd $ROOT
 
 echo "DONE COMPILING! ALL COMPILED SUCCESSFULLY."
