@@ -10,7 +10,7 @@ module load \
     rocm/6.4.1 \
     craype-accel-amd-gfx90a \
     cray-hdf5 \
-    cray-mpich \
+    cray-mpich/8.1.31 \
     openblas \
     cray-fftw \
     PrgEnv-amd/8.6.0

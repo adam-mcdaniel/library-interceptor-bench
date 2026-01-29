@@ -10,3 +10,6 @@
 [submodule "li-lsms"]
 	path = li-lsms
 	url = https://github.com/adam-mcdaniel/li-lsms
+[submodule "library-interceptors"]
+	path = library-interceptors
+	url = https://github.com/adam-mcdaniel/library-interceptors
