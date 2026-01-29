@@ -31,7 +31,7 @@ library-interceptor-bench/
 ├── run-all.sh            # Runs all the benchmarks with SLURM
 │
 ├── setup-build-env.sh    # Sets up the build environment for the benchmarks
-└── setup-run-env.sh.     # Sets up the runtime environment for the benchmarks
+└── setup-run-env.sh      # Sets up the runtime environment for the benchmarks
 ```
 
 ## Installing
