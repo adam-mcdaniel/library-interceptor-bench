@@ -55,4 +55,4 @@ cd library-interceptor-bench
 ./run-all.sh
 ```
 
-This should create a number of CSVs in each benchmark directory.
+This should create a number of CSVs in each benchmark directory containing information about the benchmark's library usage and GPU kernel calls.
